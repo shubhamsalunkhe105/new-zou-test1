@@ -1,0 +1,465 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    position: absolute;
+    overflow: hidden;
+    background-color: transparent;
+    padding: 20px;
+    z-index: 999;
+	display: flex;
+    align-items: center;
+	width: 97%;
+}
+.navlogo img {
+    width: 100px;
+}
+
+.navlogo{
+    width: 22%;
+}
+
+.topnav-centered {
+	width:60%;
+}
+
+a .signbtn:hover {
+    background-color: #75bf70;
+    color: white;
+}
+
+.topnav-right{
+	width:18%;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    color: #75bf70;
+    text-decoration: none;
+}
+
+.topnav-centered a {
+	padding:15px;
+	font-weight:600;
+}
+
+.topnav-right {
+  float: right;
+}
+
+a.topa {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+a.signbtn {
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.farmnv{
+	color:green;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1 {
+	padding: 10px 75px;
+	}
+	
+section.farminvestingsec {
+    text-align: center;
+}
+
+section.howitworkssec {
+background-image: url(../images/banner.png);
+    text-align: center;
+    padding: 75px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.workspara {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.howitworks {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.worksflex {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.selectpara {
+    width: 54%;
+}
+
+.selectfarm {
+    width: 46%;
+}
+
+.workssteps {
+    display: flex;
+    justify-content: space-between;
+}
+span.steps {
+    text-align: center;
+    margin: 10px 0 20px;
+	padding: 20px;
+    border-radius: 50%;
+    background: transparent;
+    border: 3px solid #fff;
+}
+
+span.steps:after {
+    border-top: 4px solid #fff;
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 120px;
+    z-index: 1;
+    margin-left: 20px;
+}
+
+.s4::after {
+    display: none;
+}
+
+.workssteps {
+    position: relative;
+    padding: 50px 0px;
+}
+
+section.farminvestingsec {
+    padding: 75px;
+    box-shadow: 5px 5px 5px #00000038;
+}
+
+.footercontent {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul.companyul {
+    list-style: none;
+    line-height: 1.9;
+}
+
+.zou-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer.zou-footer {
+    padding: 75px;
+}
+
+.mailbtn{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.blogdiv {
+    background-color: #75bf70;
+    padding: 10px 50px;
+    color: #fff;
+}
+
+.mailbtn{
+    background-color: #fff;
+    border: none;
+    color: #66bd66;
+	padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.companydiv {
+    width: 25%;
+}
+
+section.investconsec {
+    padding: 75px;
+}
+
+.zoufarm1 {
+    width: 50%;
+	padding-bottom: 50px;
+}
+
+
+.twoimg {
+    display: flex;
+}
+
+.funded {
+margin-left: 50px;
+    width: 50%;
+    background-image: url(../images/feature-2.png);
+    padding: 100px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.newfarm {
+    width: 50%;
+	background-image: url(../images/feature-1.png);
+    padding: 75px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: left;
+	opacity: 0.7;
+}
+
+.h4g{
+	color:#75bf70;
+}
+
+.ffnd:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    border-bottom: 3px solid #fff;
+    top: 32%;
+}
+
+ .nwfarm:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    border-bottom: 3px solid #fff;
+    top: 28%;
+}
+
+.funded, .newfarm {
+    position: relative;
+}
+
+.ffnd, .nwfarm {
+    margin-bottom: 50px;
+}
+
+.lngh3{
+	font-size:38px;
+}
+
+.farmpara {
+    font-size: 22px;
+}
+
+.newopp {
+    text-align: center;
+}
+
+
+.grow, .connect, .social {
+    padding: 30px;
+    margin: 0px 10px;
+	box-shadow: 5px 5px 5px 5px #0000001a;
+	min-height: 230px;
+}
+
+.img-icon {
+    height: auto;
+    width: 100px;
+}
+	
+	.threedivs {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+}
+
+.grow{
+	background-color:#75bf70;
+}
+
+.herosecdiv {
+    display: flex;
+}
+
+.herosecdiv {
+    display: flex;
+	align-items: center;
+}
+
+img.imghero {
+    width: 500px;
+}
+
+button.invst_btn {
+    background-color: #75bf70;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.bannercontent {
+    padding: 50px;
+}
+
+.herhead h1 {
+    font-size: 48px;
+}
+
+.heropara {
+    font-size: 28px;
+}
+
+.sp{
+	cursor:pointer;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: -50px;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 94%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button.signupform {
+    background-color: #467343;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+span.steps.sp:active {
+    background-color: #fff;
+    color: #000;
+}
+
+
+@media (max-width:767px){
+	.threedivs {
+    display: block;
+    padding: 25px;
+    align-items: center;
+}
+
+.grow, .connect, .social {
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 5px #0000001a;
+    min-height: 200px;
+}
+section.newoppsec {
+    text-align: center;
+}
+}
